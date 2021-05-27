@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Geographical College Locator</string>
+    <string name="select_the_city_to_search_college">Select the City to Search College</string>
+    <string name="geography_colleg_locator">Geography Colleg locator</string>
+</resources>
