@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     value=spin.getSelectedItem().toString();
     txt.setText("The selected city is "+value);
     switch (value){
-            case "pune":
+            case "Pune":
             intent=new Intent(android.content.Intent.ACTION_VIEW,
                     Uri.parse("https://www.google.com/maps/search/?api=1&query=Pune+Colleges+enginerring"));
                 break;
@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             intent=new Intent(android.content.Intent.ACTION_VIEW,
                     Uri.parse("https://www.google.com/maps/search/?api=1&query=Aurangabad+Colleges+enginerring"));
                 break;
-            case "nagpur":
+            case "Nagpur":
             intent=new Intent(android.content.Intent.ACTION_VIEW,
                     Uri.parse("https://www.google.com/maps/search/?api=1&query=nagpur+Colleges+enginerring"));
             break;
